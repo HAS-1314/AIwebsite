@@ -5,7 +5,11 @@ import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 
 import vercel from "@astrojs/vercel/serverless";
-
+export default {
+  adapter: vercel({
+    runtime: 'nodejs20.x'  // 明确指定使用 Node.js 20
+  })
+}
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
