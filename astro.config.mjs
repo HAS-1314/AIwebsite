@@ -4,13 +4,12 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 import icon from "astro-icon";
 
-import cloudflare from "@astrojs/cloudflare";
+import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
-  output: 'static',
-  outDir: './dist',
+  output: 'server',
   site: "https://www.aibar.app",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
-  adapter: cloudflare(),
+  adapter: vercel(),
 });
