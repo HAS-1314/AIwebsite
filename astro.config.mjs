@@ -9,7 +9,7 @@ import vercel from "@astrojs/vercel/serverless";
 // https://astro.build/config
 export default defineConfig({
   output: 'server',
-  site: "https://www.aibar.app",
+  site: "https://ai-win.baigesec.space",
   integrations: [tailwind(), mdx(), sitemap(), icon()],
   adapter: vercel(),
 });
