@@ -11,7 +11,6 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/cloudflare": "^12.4.0",
     "@astrojs/mdx": "^3.0.1",
     "@astrojs/sitemap": "^3.1.5",
     "@astrojs/tailwind": "^5.1.0",
@@ -22,7 +21,7 @@
     "@iconify-json/simple-icons": "^1.1.102",
     "@iconify-json/uil": "^1.1.8",
     "@tailwindcss/typography": "^0.5.13",
-    "astro": "^5.0.0",
+    "astro": "^4.16.6",
     "astro-icon": "^1.1.0",
     "astro-navbar": "^2.3.2",
     "astro-seo": "^0.8.3",
